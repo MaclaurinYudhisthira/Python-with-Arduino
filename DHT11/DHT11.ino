@@ -62,13 +62,13 @@ void loop() {
 
   Serial.print(F("{\'HumidityPercent\': \'"));
   Serial.print(h);
-  Serial.print(F("\'\'TemperatureCels \': \'"));
+  Serial.print(F("\',\'TemperatureCels \': \'"));
   Serial.print(t);
-  Serial.print(F("\'\'TemperatureFeran \': \'"));
+  Serial.print(F("\',\'TemperatureFeran \': \'"));
   Serial.print(f);
-  Serial.print(F("\'\'HeatIndexCels:\'\' "));
+  Serial.print(F("\',\'HeatIndexCels:\'\' "));
   Serial.print(hic);
-  Serial.print(F("\'\'HeatIndexFeran:\'\' "));
+  Serial.print(F("\',\'HeatIndexFeran:\'\' "));
   Serial.print(hif);
-  Serial.println(F("\'"));
+  Serial.println(F("\'}"));
 }
