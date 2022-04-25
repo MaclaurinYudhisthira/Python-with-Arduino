@@ -23,6 +23,7 @@ for p in ports:
     print(p.name)
     print(p)
 
+# For windows
 arduinoData=serial.Serial('COM3',9600,timeout=1)
 # For Linux
 # arduinoData=serial.Serial('/dev/ttyACM0',9600,timeout=1)
